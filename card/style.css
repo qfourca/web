@@ -1,0 +1,34 @@
+#main
+{
+width: 300px;
+height:  750px;
+border-radius: 0%;
+border-width:1px;
+border-color:black; 
+border-style:solid;
+font-size: 2em;
+font-family: consolas;
+
+}
+#pic
+{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+}
+#picture
+  {
+    position : absolute;
+    left: 75px;
+    top: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border-width:2px;
+    border-color:gray; 
+    border-style:solid;
+  }
+  #scroll
+  {
+    overflow:scroll
+  }
