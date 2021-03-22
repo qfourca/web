@@ -1,42 +1,32 @@
-#main
-{
-width: 300px;
-height:  750px;
-border-radius: 0%;
-border-width:1px;
-border-color:black; 
-border-style:solid;
-font-size: 2em;
-font-family: consolas;
+#main {
+  margin: 0 auto;
+  width: 300px;
+  height: 750px;
+  border-radius: 0%;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  font-size: 2em;
+  font-family: consolas;
 
 }
-#pic
-{
-    width: 300px;
-    height: 300px;
-    background-color: cadetblue;
+
+#pic {
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
 }
-#picture
-  {
-    position : absolute;
-    left: 75px;
-    top: 75px;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border-width:2px;
-    border-color:gray; 
-    border-style:solid;
-  }
-  #scroll
-  {
-    overflow:hidden;
-  }
-  #center 
-  {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-      width: 50%;
-   }
-  
+
+#picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
