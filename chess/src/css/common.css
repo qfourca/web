@@ -1,0 +1,25 @@
+.box{
+    height: 800px;
+    width: 800px;
+    border-radius: 1%;
+}
+.square{
+    height: 12.5%;
+    width: 12.5%;
+    overflow: hidden;
+    touch-action: none;
+    will-change: transform;
+    float: left;
+    position: static;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.dark{
+    background-color: #3d2400;
+}
+.bright{
+    background-color: wheat;
+}
