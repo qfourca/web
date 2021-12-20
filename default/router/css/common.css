@@ -23,3 +23,12 @@
 .bright{
     background-color: wheat;
 }
+.dot{
+    width : 30%;
+    height : 30%;
+    border-radius: 50%;
+    position:relative;
+    background-color: rgba(137, 154, 209, 0.8);
+    margin: 0 auto;
+    top:35%;
+}

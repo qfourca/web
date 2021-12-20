@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test</title>
+    <script type="text/javascript">
+        const webSocket = new WebSocket('ws://10.80.161.31:3000');
+        webSocket.onopen = () => {
+            console.log('연결성공');
+        };
+
+        webSocket.onmessage = (event) => {
+            console.log('수신 : ', event.data);
+
+            webSocket.send('발신 : client to server');
+        };
+    </script>
+</head>
+
+<body>
+    <button onClick="javascript: webSocket.send('시작하자!!');">시작</button>
+</body>
+
+</html>
